@@ -1,4 +1,8 @@
-<<h1>WORD Count</h1>
-{{
-  hi
-}}
+<h1>WORD Count</h1>
+<a href="{%url 'about' %}">About this application</a>
+<br />
+<form action="{% url 'count' %}">
+  <textarea name="fulltext" rows="10" cols="60"></textarea>
+  <br/>
+  <input type="submit" name="" value="Count!"/>
+</form>
