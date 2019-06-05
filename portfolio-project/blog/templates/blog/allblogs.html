@@ -43,10 +43,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="#">Twitter</a>
           <a class="nav-item nav-link" href="#">Resume</a>
-          <a class="nav-item nav-link" href="#">Blog</a>
+          <a class="nav-item nav-link active" href="#">Blog</a>
 
         </div>
       </div>
@@ -54,35 +54,13 @@
   </header>
 
   <main role="main">
+    <div class="container">
+    <h1 class='text-center pt-3'>Welcome to Aaron's Blog</h1>
+    <br />
+    <h2>Latest Post</h2>
+    <hr/>
 
-    <section class="jumbotron text-center">
-      <div class="container">
-        <h1 class="jumbotron-heading">Hi, I'm Aaron</h1>
-        <p class="lead text-muted">My personal website</p>
-        <p>
-          <a href="mailto:aaron@xnovax.net" class="btn btn-primary my-2">Email Me</a>
-        </p>
-      </div>
-    </section>
-
-    <div class="album py-5 bg-light">
-      <div class="container">
-        <div class="row">
-          {% for job in jobs.all %}
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="{{job.image.url}}"/>
-              <div class="card-body">
-                <p class="card-text">{{job.summary}}</p>
-              </div>
-            </div>
-          </div>
-          {% endfor %}
-
-          </div>
-        </div>
-      </div>
-
+    <div/>
   </main>
 
   <footer class="text-muted">
