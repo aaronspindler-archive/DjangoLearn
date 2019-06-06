@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'dt7m2x(qp(=fmni8p$ucjkpc_1ur2px9^&(e_61#_41e51nezf'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['3.216.228.93']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -79,10 +79,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'portfoliodb',
-        'USER': 'djangodbman',
-        'PASSWORD' : 'django1234',
+        'USER': 'postgres',
+        'PASSWORD' : 'django123',
         'HOST' : 'localhost',
-        'PORT' : '',
+        'PORT' : '5432',
     }
 }
 
