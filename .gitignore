@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 
 # Custom
+producthunt-project/static
+portfolio-project/static
 enviroments/
 local_settings.py
 
