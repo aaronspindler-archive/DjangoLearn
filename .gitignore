@@ -5,6 +5,7 @@ __pycache__/
 
 # Custom
 producthunt-project/static
+producthunt-project/media
 portfolio-project/static
 enviroments/
 local_settings.py
